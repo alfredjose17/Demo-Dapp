@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Dapp</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+
+<body style="text-align: center; padding-top: 30px;">
+    
+    <h1>My Demo Dapp!</h1>
+    <div id="mm-detected"></div><br><br>
+
+
+    <!-- Connect to MetaMask Wallet -->
+    <button id='mm-connect'>Connect MetaMask</button>
+    <div id="mm-current-account"></div><br><br>
+
+
+    <!-- Provide an input to change the contract text value -->
+    <div>
+        <input id="ss-input-box" type="number" placeholder="Provide Input"/>
+    </div><br>
+    <button id="ss-input-button">Submit Value</button><br><br><br>
+
+
+    <!-- Read input from contract -->
+    <div>
+        <button id="ss-get-value">Get Simple Storage Value</button>
+    </div><br>
+    <div id="ss-display-value">Current Simple Storage Value: </div>
+
+
+    <script src="dapp.js"></script>
+</body>
+</html>                
